@@ -17,7 +17,7 @@ class UserProfile(QWidget):
 
         #Creating the displayImages function
     def displayImages(self):
-            background_image = 'raulito.jpg'
+            background_image = 'gatito.jpg'
             try:
                 with open(background_image):
                     background = QLabel(self)
@@ -29,7 +29,7 @@ class UserProfile(QWidget):
         #Creating the displayUserInfo function.
     def displayUserInfo(self):
             user_name = QLabel(self)
-            user_name.setText("Raul BG")
+            user_name.setText("Gatito")
             user_name.move(65, 40)
             user_name.setFont(QFont('Helvetica', 20))
             bio_title = QLabel(self)
@@ -37,7 +37,7 @@ class UserProfile(QWidget):
             bio_title.move(15, 95)
             bio_title.setFont(QFont('Arial', 17))
             about = QLabel(self)
-            about.setText("QA trying to switch to Automation.")
+            about.setText("Professional Belly Scratcher")
             about.setWordWrap(True)
             about.move(15, 130)
             skills_title = QLabel(self)
@@ -45,21 +45,21 @@ class UserProfile(QWidget):
             skills_title.move(15, 185)
             skills_title.setFont(QFont('Arial', 17))
             skills = QLabel(self)
-            skills.setText("Python | Java | SQL | Release")
+            skills.setText("Meowing, jumping, rolling, sleeping")
             skills.move(15, 220)
             experience_title = QLabel(self)
             experience_title.setText("Experience")
             experience_title.move(15, 265)
             experience_title.setFont(QFont('Arial', 17))
             experience = QLabel(self)
-            experience.setText("Senior QA Analyst")
+            experience.setText("Teenage Cat")
             experience.move(15, 300)
             dates = QLabel(self)
             dates.setText("Dec 2019 - Present")
             dates.move(15, 320)
             dates.setFont(QFont('Arial', 10))
             experience = QLabel(self)
-            experience.setText("Kebab Testing")
+            experience.setText("Kitty Cat")
             experience.move(15, 345)
             dates = QLabel(self)
             dates.setText("Jan 2018 - Dec 2019")
