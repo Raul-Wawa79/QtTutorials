@@ -1,5 +1,6 @@
+import self as self
 from PyQt6.QtWidgets import (QApplication, QWidget, QHBoxLayout,
-QFormLayout)
+                             QFormLayout, QVBoxLayout, QTextEdit, QFileDialog)
 
 #Creating a layout and initializing it
 v_box = QVBoxLayout()
